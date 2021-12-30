@@ -1,5 +1,5 @@
+var winner = Math.floor(Math.random() * 3) + 1;
 function theButton(id) {
-  var winner = Math.floor(Math.random() * 3) + 1;
   if (id == winner) {
     alert("Congratulations! Your choice was the right one!");
     var property = document.getElementById(id);
